@@ -8,9 +8,16 @@
 }
 
 body {
+  background-image: url("background.png");
 }
 
 main {
+  background-color: #FFFFFF;
+  border: 1rem solid transparent;
+  border-image: url("border.gif") 25 repeat;
+  border-width: 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+
 }
 header {
 }
