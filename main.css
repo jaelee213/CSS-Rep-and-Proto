@@ -60,14 +60,14 @@ section {
 }
 
 section > div {
-    text-align: center;
-    text-transform: lowercase;
-    font-family: "Comic Sans MS";
-    font-size: 1.5rem;
-    color: #FFFFFF;
-    border: 1rem solid transparent;
-    margin-left: 2rem;
-    margin-right: 2rem;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: "Comic Sans MS";
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  border: 1rem solid transparent;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 section > div:nth-child(even) {
@@ -182,8 +182,6 @@ footer > div > img:hover+span{
   bottom: 5rem;
   z-index: 9;
 }
-
-
 
 /* Solution given should
    be below 250 lines, the solution we had was
