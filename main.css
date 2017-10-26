@@ -73,6 +73,9 @@ section > div {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+
 }
 /* -- added code -- */
 section > div:nth-child(even) {
@@ -80,14 +83,12 @@ section > div:nth-child(even) {
 	/* background color is  rgb(192,77,249) */
   background-color: rgb(192,77,249);
 
-
 }
 /* -- added code --*/
 section > div:nth-child(odd){
 	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
     /* background color is  rgb(43,209,252) */
     background-color: rgb(43, 209, 252);
-
 }
 section > div:nth-child(3):after {
 	/* gave you the nth child after selector for free to inspire you */
@@ -108,7 +109,6 @@ aside {
     font-size: 2rem;
     margin: 1rem 2rem 0rem 2rem;
     padding: 1rem 1rem 1rem 1rem;
-
 
     font-family: sans-serif;
     text-align: center;
@@ -132,7 +132,7 @@ aside {
   background-color: rgba(252, 241, 35, 0.993);
   text-shadow: 0 0.1rem 0 black;
   font-size: 1.5rem;
-  padding: 0.2rem 0.2rem;
+  padding: 0.1rem;
   outline: 0.001rem solid white;
   outline-offset: -0.2rem; 
   border-radius: 0.2rem;
