@@ -15,6 +15,7 @@
 body {
   /*-- added code --*/
   background-image: url('./background.png');
+  background-attachment: fixed;
 }
 
 main {
@@ -43,12 +44,12 @@ header a {
   font-family: 'Monoton';
   border: solid transparent;
   background-color: #f151d1ee;
-  font-size: 3.3rem;
+  font-size: 3rem;
   color: #000000;
   border-radius: 50%;
   padding: 0.4rem 1rem 0.4rem 1rem;
   margin-bottom: 2rem;
-  box-shadow: 0rem 0.4rem 0.6rem -0.2rem #000000;
+  box-shadow: 0rem 0.4rem 0.6rem -0.1rem #000000;
 }
 
 /*-- added code --*/
@@ -65,8 +66,6 @@ section {
 	/* color rgb(243,234,95) is used */
   display: flex;
   flex-direction: column-reverse;
-  color: rgb(243,243,95);
-
 }
 /* -- added code -- */
 section > div {
@@ -74,7 +73,7 @@ section > div {
     text-align: center;
     text-transform: lowercase;
     font-family: "Comic Sans MS";
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #FFFFFF;
     border: 1rem solid transparent;
     margin-left: 2rem;
@@ -84,18 +83,21 @@ section > div {
 section > div:nth-child(even) {
 	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
 	/* background color is  rgb(192,77,249) */
-  background-color: rgb(192,77,249);
+  background-color: rgb(43, 209, 252);
 
 }
 /* -- added code --*/
 section > div:nth-child(odd){
 	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
     /* background color is  rgb(43,209,252) */
-    background-color: rgb(43, 209, 252);
+    background-color: rgb(192,77,249);
 }
 section > div:nth-child(3):after {
 	/* gave you the nth child after selector for free to inspire you */
-	/* generated content in here ... a property can do that */
+  /* generated content in here ... a property can do that */
+  content: " \2665\2665\2665";
+  font-size: 1.1rem;
+  
 	}
 
 	/* some free rules for fun */
@@ -111,7 +113,7 @@ aside {
     border-bottom-right-radius: 1rem;
     font-size: 2rem;
     margin: 1rem 2rem 0rem 2rem;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
 
     font-family: sans-serif;
     text-align: center;
@@ -129,20 +131,27 @@ aside {
 }
 
 #zap {
+  position: relative;
+  height: 5rem;
   margin: 1rem 2rem 1rem 2rem;
   text-align: center;
   color: white;
-  background-color: rgba(252, 241, 35, 0.993);
+  background-color: rgb(243,243,95);;
   text-shadow: 0 0.1rem 0 black;
-  font-size: 1.5rem;
-  padding: 0.1rem;
+  font-size: 1.7rem;
   outline: 0.001rem solid white;
   outline-offset: -0.2rem;
   border-radius: 0.2rem;
 }
 
+section h3 {
+  position: relative;
+  top: 0.7rem;
+}
+
 footer {
-  background-color: #ff00ff;
+  margin-top: 3.5rem;
+  background-color: #f151d1ee;
   color: black;
   text-align: center;
   font-family: Cursive;
