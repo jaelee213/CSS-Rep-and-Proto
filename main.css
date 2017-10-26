@@ -52,10 +52,9 @@ header a {
 /*-- added code --*/
 .fun {
   color: white;
-  text-shadow: 0 0.15rem 0.3rem red, 0 -0.1rem 0.1rem red, 0.15rem 0 0.1rem red, -0.15rem 0 0.1rem red; 
+  text-shadow: 0 0 0.2rem red, 0 0.2rem 0.2rem red, 0.01rem 0 0.2rem red, 0 -0.1rem 0.02rem red;
   font-family: monospace;
   padding-top: 1rem;
-  font-weight: normal;
 }
 
 section {
@@ -112,6 +111,19 @@ aside {
 #bug {
   fill: white;
   width: 10vw;
+}
+
+#zap {
+  margin: 1rem 2rem 1rem 2rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(252, 241, 35, 0.993);
+  text-shadow: 0 0.1rem 0 black;
+  font-size: 1.5rem;
+  padding: 0rem 0.2rem;
+  outline: 0.001rem solid white;
+  outline-offset: -0.2rem; 
+  border-radius: 0.2rem;
 }
 
 /* Oh no! The file has been truncated I guess you have to fill it in */
