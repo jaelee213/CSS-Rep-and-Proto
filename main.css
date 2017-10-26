@@ -1,25 +1,22 @@
 /* Hint: use relative measurements you'll find them useful! */
 /* I may have removed a selector or two */
 
-@import url('https://fonts.googleapis.com/css?family=Monoton');  /* Set this for Monton a Google Font ...figure out their syntax */
+@import url('https://fonts.googleapis.com/css?family=Monoton');  
 
 * {
     box-sizing: border-box;
 }
 
-/*-- added code --*/
 #spritesheet {
   height: 0rem;
 }
 
 body {
-  /*-- added code --*/
   background-image: url('./background.png');
   background-attachment: fixed;
 }
 
 main {
-  /*-- added code --*/
   background-color: #FFFFFF;
   border: solid;
   margin: 2.4rem 2.5rem 2.4rem 2.7rem;
@@ -28,19 +25,16 @@ main {
   border-image: url('./border.gif') 20;
 }
 header {
-  /*-- added code --*/
   font-size: 6rem;
   text-transform: uppercase;
   margin: 2rem 4rem 3rem 2rem;
 }
 
-/*-- added code --*/
 header a {
   text-decoration: none;
 }
 
 .logo {
-  /*-- added code --*/
   font-family: 'Monoton';
   border: solid transparent;
   background-color: #f151d1ee;
@@ -52,24 +46,20 @@ header a {
   box-shadow: 0rem 0.4rem 0.6rem -0.1rem #000000;
 }
 
-/*-- added code --*/
 .fun {
   color: white;
   text-shadow: 0 0 0.2rem red, 0 0.2rem 0.2rem red, 0.01rem 0 0.2rem red, 0 -0.1rem 0.02rem red;
   font-family: monospace;
   padding-top: 1rem;
   letter-spacing: 0.1rem;
-
 }
 
 section {
-	/* color rgb(243,234,95) is used */
   display: flex;
   flex-direction: column-reverse;
 }
-/* -- added code -- */
+
 section > div {
-    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */
     text-align: center;
     text-transform: lowercase;
     font-family: "Comic Sans MS";
@@ -79,52 +69,39 @@ section > div {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-/* -- added code -- */
-section > div:nth-child(even) {
-	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
-	/* background color is  rgb(192,77,249) */
-  background-color: rgb(43, 209, 252);
 
+section > div:nth-child(even) {
+  background-color: rgb(43, 209, 252);
 }
-/* -- added code --*/
+
 section > div:nth-child(odd){
-	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
-    /* background color is  rgb(43,209,252) */
-    background-color: rgb(192,77,249);
+  background-color: rgb(192,77,249);
 }
 section > div:nth-child(3):after {
-	/* gave you the nth child after selector for free to inspire you */
-  /* generated content in here ... a property can do that */
   content: " \2665\2665\2665";
   font-size: 1.1rem;
-  
-	}
-
-	/* some free rules for fun */
-aside {
-    background: rgb(255,63,63);
-    color: white;
-    border: 1rem solid black;
-    border-top-left-radius: 1rem;
-
-    /*-- added code --*/
-    border-top-right-radius: 4rem;
-    border-bottom-left-radius: 4rem;
-    border-bottom-right-radius: 1rem;
-    font-size: 2rem;
-    margin: 1rem 2rem 0rem 2rem;
-    padding: 1rem;
-
-    font-family: sans-serif;
-    text-align: center;
 }
-/*-- added code --**/
+
+aside {
+  background: rgb(255,63,63);
+  color: white;
+  border: 1rem solid black;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 2rem;
+  margin: 1rem 2rem 0rem 2rem;
+  padding: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
 [title~=bugs] {
   width: 2rem;
   height: 2rem;
 }
 
-/*-- added code --*/
 #bug {
   fill: white;
   width: 10vw;
@@ -164,16 +141,6 @@ div img {
   width: 25%;
   height: 60%;
 }
-
-.wrapper > span {
-  display: none;
-}
-
-.wrapper:hover > span {
-  display: block;
-}
-
-/* Oh no! The file has been truncated I guess you have to fill it in */
 
 /* Solution given should
    be below 250 lines, the solution we had was
