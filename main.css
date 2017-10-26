@@ -143,16 +143,16 @@ div img {
 }
 
 .wrapper > span {
-	display: none;
+  display: none;
 }
 
 .wrapper:hover > span {
-	position: relative;
-	display: inline;
-	border: 0.5rem solid black;
-	padding: 1rem;
-	background-color: white;
-	bottom: 9rem;
+  position: relative;
+  display: inline;
+  border: 0.5rem solid black;
+  padding: 1rem;
+  background-color: white;
+  bottom: 9rem;
 }
 
 /* Solution given should
