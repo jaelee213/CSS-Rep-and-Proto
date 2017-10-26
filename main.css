@@ -60,6 +60,9 @@ header a {
 
 section {
 	/* color rgb(243,234,95) is used */
+  display: flex;
+  flex-direction: column-reverse;
+  color: rgb(243,243,95);
 
 }
 /* -- added code -- */
@@ -73,10 +76,6 @@ section > div {
     border: 1rem solid transparent;
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column-reverse;
-
 }
 /* -- added code -- */
 section > div:nth-child(even) {
