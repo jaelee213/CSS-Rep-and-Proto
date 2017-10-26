@@ -175,11 +175,10 @@ footer > div > span:before{
 }
 
 footer > div > img:hover+span{
-  display: block;
+  display: inline-block;
   position: absolute;
   width: 4rem;
-  right: 4rem;
-  bottom: 5rem;
+  top: 2rem;
 }
 
 /* Solution given should
