@@ -70,9 +70,9 @@ section > div {
     font-size: 2rem;
     color: #FFFFFF;
     border: 1rem solid transparent;
-    margin-left: 1rem;
-    margin-right: 1rem;
-
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
 }
 /* -- added code -- */
 section > div:nth-child(even) {
@@ -106,7 +106,7 @@ aside {
     border-bottom-left-radius: 4rem;
     border-bottom-right-radius: 1rem;
     font-size: 2rem;
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 1rem 2rem 0rem 2rem;
     padding: 1rem 1rem 1rem 1rem;
 
 
@@ -132,7 +132,7 @@ aside {
   background-color: rgba(252, 241, 35, 0.993);
   text-shadow: 0 0.1rem 0 black;
   font-size: 1.5rem;
-  padding: 0rem 0.2rem;
+  padding: 0.2rem 0.2rem;
   outline: 0.001rem solid white;
   outline-offset: -0.2rem; 
   border-radius: 0.2rem;
