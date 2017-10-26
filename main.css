@@ -151,6 +151,8 @@ section h3 {
 
 footer {
   margin-top: 3.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 1.3rem;
   background-color: #f151d1ee;
   color: black;
   text-align: center;
