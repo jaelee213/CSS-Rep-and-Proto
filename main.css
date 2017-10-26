@@ -8,7 +8,9 @@
 }
 
 /*-- added code --*/
-#spritesheet { height: 0rem; }
+#spritesheet { 
+  height: 0rem; 
+}
 
 body {
   /*-- added code --*/
@@ -18,14 +20,44 @@ body {
 main {
   /*-- added code --*/
   background-color: #FFFFFF;
-  margin: 3rem 2rem 3rem 2rem;
-  border: solid;
+  margin: 2.4rem 2.5rem 2.4rem 2.7rem;
   border-width: 1rem;
-  border-image: url('./border.gif') 30 repeat;
+  border-image: url('./border.gif') 20;
 }
 header {
-
+  /*-- added code --*/
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin: 2rem 4rem 3rem 2rem;
 }
+
+/*-- added code --*/
+header a { 
+  text-decoration: none; 
+}
+
+.logo { 
+  /*-- added code --*/
+  font-family: 'Monoton';
+  border: solid transparent;
+  background-color: #f151d1ee;
+  font-size: 3.3rem;
+  color: #000000;
+  border-radius: 50%;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0rem 0.4rem 0.6rem -0.2rem #000000; 
+}
+
+/*-- added code --*/
+.fun {
+  color: white;
+  text-shadow: 0 0.15rem 0.3rem red, 0 -0.1rem 0.1rem red, 0.15rem 0 0.1rem red, -0.15rem 0 0.1rem red; 
+  font-family: monospace;
+  padding-top: 1rem;
+  font-weight: normal;
+}
+
 section {
 	/* color rgb(243,234,95) is used */
 
@@ -75,6 +107,8 @@ aside {
     border-bottom-left-radius: 4rem;
     border-bottom-right-radius: 1rem;
     font-size: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
 
 
     font-family: sans-serif;
