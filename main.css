@@ -142,6 +142,18 @@ div img {
   height: 60%;
 }
 
+.wrapper > span {
+	display: none;
+}
+
+.wrapper:hover > span {
+	display: block;
+	width: 10rem;
+	border: 1rem solid black;
+	padding: 1rem;
+	margin: 1rem;
+}
+
 /* Solution given should
    be below 250 lines, the solution we had was
    below 200 easily formatted */
