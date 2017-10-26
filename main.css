@@ -37,7 +37,7 @@ header a {
 .logo {
   font-family: 'Monoton';
   border: solid transparent;
-  background-color: #f151d1ee;
+  background-color: #ff4dd2;
   font-size: 3rem;
   color: #000000;
   border-radius: 50%;
@@ -130,7 +130,7 @@ footer {
   margin-top: 3.5rem;
   padding-top: 0.1rem;
   padding-bottom: 1.3rem;
-  background-color: #f151d1ee;
+  background-color: #ff4dd2;
   color: black;
   text-align: center;
   font-family: Cursive;
