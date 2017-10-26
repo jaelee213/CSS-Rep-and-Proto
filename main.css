@@ -142,15 +142,20 @@ footer {
   background-color: #ff00ff;
   color: black;
   text-align: center;
-  font-family: "Monotype Corsiva";
+  font-family: Cursive;
 }
 
 div img {
+  margin-top: 1rem;
   width: 25%;
   height: 60%;
 }
 
 .wrapper > span {
+  display: none;
+}
+
+.wrapper:hover > span {
   display: block;
 }
 
