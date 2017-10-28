@@ -1,7 +1,7 @@
 /* Hint: use relative measurements you'll find them useful! */
 /* I may have removed a selector or two */
 
-@import url('https://fonts.googleapis.com/css?family=Monoton');  
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 
 * {
     box-sizing: border-box;
@@ -128,7 +128,7 @@ section h3 {
 
 footer {
   margin-top: 3.5rem;
-  padding-top: 0.1rem;
+  padding-top: 1rem;
   padding-bottom: 1.3rem;
   background-color: #ff4dd2;
   color: black;
@@ -144,17 +144,29 @@ div > img {
 }
 
 footer > div > span{
+  background-color: #FFFFFF;
+  position: absolute;
+  padding: 1vw 1vw 1vw 1vw;
+  margin: auto;
+  border-radius: 0.5rem;
+  border-width: 0.3rem 0.2rem 0.3rem 0.2rem;
+  border: solid #000000;
+  top: 0.5rem;
+  right: 20%;
+  opacity: 0;
+  box-shadow: 0rem 0.4rem 0.3rem -0.1rem #000067;
+  /*
   background:#FFFFFF;
-  border-bottom: 0.3rem solid black; 
+  border-bottom: 0.3rem solid black;
   border-style: solid;
   border-width: 0.3rem 0.2rem 0.3rem 0.2rem;
   border-color: black;
   border-radius: 0.3rem;
-  position:absolute;
+  position: absolute;
   display: none;
-  padding: 0.4rem 0.1rem;
-  z-index: 9;  
+  padding: 0.4rem 0.4rem;
   box-shadow: 0rem 0.4rem 0.2rem -0.1rem #00000067;
+  */
 }
 
 footer > div > span:before{
@@ -165,21 +177,80 @@ footer > div > span:before{
   border-style: solid;
   border-width: 0.5rem;
   border-color: transparent transparent #000000 transparent;
+  transform: rotate(270deg);
+  right: 3.5rem;
+  top: 0.7rem;
+    /*
+  content:'';
+  position: absolute;
+  width: 0rem;
+  height: 0rem;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: transparent transparent #000000 transparent;
   transform:rotate(270deg);
   right: 3.8rem;
   top: 0.7rem;
-}  
+  */
+}
 
 .wrapper {
   position: relative;
 }
 
+
 footer > div > img:hover+span{
+  opacity: 1;
+  /*
   display: inline-block;
   position: absolute;
   width: 4rem;
   top: 1rem;
+  */
 }
+
+
+@media only screen and (min-width: 600px) and (max-width: 659px) {
+  footer > div > span {
+    right: 25%;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 754px) {
+  footer > div > span {
+    right: 25%;
+  }
+
+  footer > div > span::before {
+    right: 3.6rem;
+    top: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 755px) and (max-width: 1000px) {
+  footer > div > span {
+    right: 26%;
+    top: 1.8rem;
+  }
+
+  footer > div > span::before {
+    right: 3.8rem;
+    top: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  footer > div > span {
+    right: 30%;
+    top: 4rem;
+  }
+
+  footer > div > span::before {
+    right: 4.5rem;
+    top: 1.6rem;
+  }
+}
+
 
 /* Solution given should
    be below 250 lines, the solution we had was
