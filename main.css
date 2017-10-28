@@ -1,6 +1,3 @@
-/* Hint: use relative measurements you'll find them useful! */
-/* I may have removed a selector or two */
-
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
 * {
@@ -155,18 +152,6 @@ footer > div > span{
   right: 20%;
   opacity: 0;
   box-shadow: 0rem 0.4rem 0.3rem -0.1rem #000067;
-  /*
-  background:#FFFFFF;
-  border-bottom: 0.3rem solid black;
-  border-style: solid;
-  border-width: 0.3rem 0.2rem 0.3rem 0.2rem;
-  border-color: black;
-  border-radius: 0.3rem;
-  position: absolute;
-  display: none;
-  padding: 0.4rem 0.4rem;
-  box-shadow: 0rem 0.4rem 0.2rem -0.1rem #00000067;
-  */
 }
 
 footer > div > span:before{
@@ -178,37 +163,17 @@ footer > div > span:before{
   border-width: 0.5rem;
   border-color: transparent transparent #000000 transparent;
   transform: rotate(270deg);
-  right: 3.5rem;
+  right: 3.3rem;
   top: 0.7rem;
-    /*
-  content:'';
-  position: absolute;
-  width: 0rem;
-  height: 0rem;
-  border-style: solid;
-  border-width: 0.5rem;
-  border-color: transparent transparent #000000 transparent;
-  transform:rotate(270deg);
-  right: 3.8rem;
-  top: 0.7rem;
-  */
 }
 
 .wrapper {
   position: relative;
 }
 
-
 footer > div > img:hover+span{
   opacity: 1;
-  /*
-  display: inline-block;
-  position: absolute;
-  width: 4rem;
-  top: 1rem;
-  */
 }
-
 
 @media only screen and (min-width: 600px) and (max-width: 659px) {
   footer > div > span {
@@ -220,7 +185,6 @@ footer > div > img:hover+span{
   footer > div > span {
     right: 25%;
   }
-
   footer > div > span::before {
     right: 3.6rem;
     top: 0.8rem;
@@ -232,7 +196,6 @@ footer > div > img:hover+span{
     right: 26%;
     top: 1.8rem;
   }
-
   footer > div > span::before {
     right: 3.8rem;
     top: 1.2rem;
@@ -244,13 +207,11 @@ footer > div > img:hover+span{
     right: 30%;
     top: 4rem;
   }
-
   footer > div > span::before {
     right: 4.5rem;
     top: 1.6rem;
   }
 }
-
 
 /* Solution given should
    be below 250 lines, the solution we had was
